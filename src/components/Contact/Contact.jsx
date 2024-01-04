@@ -19,6 +19,8 @@ const Contact = () => {
     emailjs.sendForm('service_j7rmvs4', 'template_r10a0ts', form.current, 'xWwCcQUqQyazsx0hQ')
       .then((result) => {
           console.log(result.text);
+          e.target.reset()
+          alert('Email sent')
       }, (error) => {
           console.log(error.text);
       });
@@ -47,12 +49,14 @@ const Contact = () => {
           <input type="text" className="name" placeholder='Your Name' name='from_name' />
           <input type="email" className='email' placeholder='Your Email' name='your_email' />
           <textarea name="message" rows="5" className='msg' placeholder='Message' ></textarea>
-        </form>
-        <button className='submitBtn' type='submit' value='Send'>Submit</button>
-        <div className="links">
+          <button className='submitBtn' type='submit' value='Send'>Submit</button>
+          <div className="links">
           <img src={linkedin} alt="linkedin" className="link" />
           <img src={git} alt="github" className="link" />
         </div>
+        </form>
+        
+        
 
       </div>
 
