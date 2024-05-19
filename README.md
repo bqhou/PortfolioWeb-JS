@@ -7,6 +7,8 @@ Please see the components below.
 - Navigation Bar
 - Introduction
 - Portfolio
+  - Skills
+  - Works
 - Contact
 - Footer
 
