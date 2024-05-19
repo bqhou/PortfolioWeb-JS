@@ -1,3 +1,7 @@
+# Portfolio Website
+
+Welcome to this Portfolio website repository! This project contains the source code, built using React JS, CSS and HTML
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
