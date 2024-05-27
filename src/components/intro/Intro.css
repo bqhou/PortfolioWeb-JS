@@ -23,7 +23,7 @@
     height: 100vh;
     width: 100vw;
     padding: 2rem;
-    font-size: 3rem;
+    font-size: 5rem;
     font-weight: 700;
     display: flex;
     flex-direction: column;
@@ -35,14 +35,17 @@
     font-weight: 100;
 }
 
+.introOcc{
+    font-size: 2rem;
+}
+
 .introName{
     /* font-size: 5rem; */
-    /* font-weight: 100;  */
     color: rgba(255, 166, 0, 0.879);
 }
 .introPara{
     font-size: medium;
-    font-weight: 200;
+    font-weight: 300;
     /* letter-spacing: 1px; */
 }
 .btn{
@@ -50,10 +53,14 @@
     margin: 1rem 0;
     padding: 0.75rem 1.5rem;
     border: none;
-    border-radius: 2rem;
+    border-radius: 1rem;
     display: flex;
     text-align: center;
     align-items: center; 
+}
+.btn span{
+    font-weight: 400;
+    font-size: medium;
 }
 
 

@@ -28,7 +28,7 @@ const Contact = () => {
 
   return (
     <section id='contact'>
-        <div className="clients">
+        {/* <div className="clients">
             <h1 className="contentPageTitle">My Clients</h1>
             <p className="clientsDesc">
                 I have had the opportunity to work with a diverse group of companies, some of the notale compaines I have worked with includes
@@ -40,7 +40,7 @@ const Contact = () => {
                 <img src={meta} alt="" className="clientImg" />
                 <img src={ms} alt="" className="clientImg" />
             </div>
-        </div>
+        </div> */}
 
       <div className="contact">
         <h1 className="contentPageTitle">Contact Me</h1>
@@ -50,13 +50,18 @@ const Contact = () => {
           <input type="email" className='email' placeholder='Your Email' name='your_email' />
           <textarea name="message" rows="5" className='msg' placeholder='Message' ></textarea>
           <button className='submitBtn' type='submit' value='Send'>Submit</button>
+
           <div className="links">
-          <img src={linkedin} alt="linkedin" className="link" />
-          <img src={git} alt="github" className="link" />
-        </div>
+            <a href="https://github.com/bqhou" target="_blank" rel="noopener noreferrer">
+            <img src={git} alt="github" className="link" />
+            </a>
+
+          
+            <img src={linkedin} alt="linkedin" className="link" />
+          </div>
         </form>
-        
-        
+
+
 
       </div>
 

@@ -8,12 +8,22 @@ const Intro = () => {
   return (
    <section id='intro' >
     <div className="introContent">
-        <span className='hello'>Hello,</span>
-        <span className='introText'>I'm <span className='introName'>Beth</span> </span>
-        <span>Web Developer</span>
+        {/* <span className='hello'>Hello,</span> */}
+        {/* <span className='introText'>I'm  */}{/* </span> */}
+        <span className='introName'>Beth<br></br> HOU</span> 
+        
+        <span className='introOcc'> Data Analyst | Web Developer</span>
         <p className="introPara">I am a skilled web developer with exdperience in creating web and <br />visually appearling and user-friendly websites.</p>
         {/* <button></button> */}
-        <Link><button className='btn'><img src={hireme} alt="Hire Me" className='btnImg'/><span>Hire Me</span></button></Link>
+        {/* <br></br> */}
+        {/* <Link to='contact' smooth={true} duration={500}> */}
+        <a href="mailto:your.email@example.com">
+          <button className='btn'>
+            <img src={hireme} alt="Hire Me" className='btnImg' />
+            <span>Hire Me</span>
+          </button>
+        </a>
+          {/* </Link> */}
     </div>
     <img src={bg} alt="Profile" className='bg'/>
    </section>

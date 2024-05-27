@@ -23,6 +23,11 @@
     font-weight: 300;
     font-size: 1rem;
 }
+.worksjob{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: orange;
+}
 
 .worksImgs{
     display: flex;
@@ -31,12 +36,30 @@
     flex-wrap: wrap;
     width: 100vw;
    max-width: 65rem;
+   background-color: grey;
+   margin-top: 1rem;
+   border-radius: 3rem;
 }
 
+.job{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 4rem;
+}
 .worksImg{
-    height: 20rem;
+    height: 10rem;
     margin: 1rem 0.5rem;
 
+}
+
+.worksDesc2{
+    margin-left: 5rem;
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: left;
+    
+    
 }
 .workBtn{
     margin: 3rem 0;

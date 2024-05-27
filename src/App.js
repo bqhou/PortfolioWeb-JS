@@ -10,8 +10,9 @@ function App() {
     <div className="App">
       <NavBar></NavBar>
       <Intro></Intro>
-      <Skills></Skills>
       <Works></Works>
+      <Skills></Skills>
+      
       <Contact></Contact>
      <Footer></Footer>
     </div>
